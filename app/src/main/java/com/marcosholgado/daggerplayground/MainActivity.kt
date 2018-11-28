@@ -11,7 +11,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject
-    lateinit var expensiveObject: Lazy<BigObject>
+    lateinit var expensiveObject: Lazy<ExpensiveObject>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

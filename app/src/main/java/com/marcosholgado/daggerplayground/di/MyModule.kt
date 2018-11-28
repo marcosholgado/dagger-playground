@@ -1,6 +1,6 @@
 package com.marcosholgado.daggerplayground.di
 
-import com.marcosholgado.daggerplayground.BigObject
+import com.marcosholgado.daggerplayground.ExpensiveObject
 import dagger.Module
 import dagger.Provides
 
@@ -8,6 +8,6 @@ import dagger.Provides
 class MyModule {
 
     @Provides
-    fun provideExpensiveObject(): BigObject = BigObject()
+    fun provideExpensiveObject(): ExpensiveObject = ExpensiveObject()
 
 }

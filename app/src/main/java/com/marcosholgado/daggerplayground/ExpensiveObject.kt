@@ -1,6 +1,6 @@
 package com.marcosholgado.daggerplayground
 
-class BigObject {
+class ExpensiveObject {
 
     var intArray: IntArray = IntArray(100000001)
     var byteArray: ByteArray = ByteArray(1000001)
