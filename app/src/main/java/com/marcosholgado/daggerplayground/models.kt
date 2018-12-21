@@ -1,0 +1,3 @@
+package com.marcosholgado.daggerplayground
+
+class OtherObject
