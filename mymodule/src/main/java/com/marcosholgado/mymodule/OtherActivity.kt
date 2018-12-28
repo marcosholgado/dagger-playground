@@ -15,8 +15,8 @@ class OtherActivity : AppCompatActivity() {
     lateinit var text: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         AndroidInjection.inject(this)
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_other)
     }
 }
