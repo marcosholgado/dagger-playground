@@ -8,6 +8,5 @@ import javax.inject.Singleton
 @Module
 class CoreModule {
     @Provides
-    @Singleton
     fun provideExpensiveObject(): ExpensiveObject = ExpensiveObject()
 }

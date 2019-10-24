@@ -7,4 +7,7 @@ import dagger.Provides
 class Feature1Module {
     @Provides
     fun provideString() = "test"
+
+    @Provides
+    fun provideMyObject(): MyObject = MyObject()
 }
